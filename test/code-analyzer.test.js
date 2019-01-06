@@ -1,4 +1,5 @@
 import assert from 'assert';
+
 import {parseCode} from '../src/js/code-analyzer';
 
 let x = `function foo(x, y, z){
@@ -115,4 +116,3 @@ describe('The javascript parser', () => {
     it('check p first line6 color', () => {
         assert.equal(t2[6].color, 1);});
 });
-import {parseCode,table_array, build_table} from '../src/js/code-analyzer';
