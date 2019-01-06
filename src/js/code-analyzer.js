@@ -203,5 +203,4 @@ const while_statement_parser = (root, color_of_line) => {
     global_and_function_variables = [...ksdmvk];
     return;
 };
-
 export {parseCode,codeSoFar, global_and_function_variables, returnCode};
